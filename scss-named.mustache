@@ -1,0 +1,59 @@
+{{! scss-named.mustache"                v1.0.0 | 2019/03/12 | by Tristano Ajmone
+================================================================================
+Converts a Base16 scheme to a Sass module where each color key is assigned to a
+unique variable identifier based on the scheme name, followed by the color key
+hex number (e.g. "$Atelier-Cave-00").
+
+This template is useful when working on a Sass project where multiple Base16
+schemes should be available at once, project-wide.
+==============================================================================}}
+// =============================================================================
+// Base16 {{{scheme}}}
+// =============================================================================
+// Author: {{{author}}}
+// Source: {{{url}}}
+// -----------------------------------------------------------------------------
+// Base16 project by Chris Kempson: http://chriskempson.com/projects/base16/
+// Sass version by Tristano Ajmone: https://github.com/tajmone/Base16-Sass
+// -----------------------------------------------------------------------------
+${{{id}}}-00: #{{base00}};
+${{{id}}}-01: #{{base01}};
+${{{id}}}-02: #{{base02}};
+${{{id}}}-03: #{{base03}};
+${{{id}}}-04: #{{base04}};
+${{{id}}}-05: #{{base05}};
+${{{id}}}-06: #{{base06}};
+${{{id}}}-07: #{{base07}};
+${{{id}}}-08: #{{base08}};
+${{{id}}}-09: #{{base09}};
+${{{id}}}-0A: #{{base0A}};
+${{{id}}}-0B: #{{base0B}};
+${{{id}}}-0C: #{{base0C}};
+${{{id}}}-0D: #{{base0D}};
+${{{id}}}-0E: #{{base0E}};
+${{{id}}}-0F: #{{base0F}};
+// -----------------------------------------------------------------------------
+{{!-----------------------------------------------------------------------------
+MIT License
+
+Copyright (c) 2019 Tristano Ajmone <tajmone@gmail.com>
+https://github.com/tajmone/Base16-Sass
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+------------------------------------------------------------------------------}}

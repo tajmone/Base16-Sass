@@ -1,0 +1,40 @@
+################################################################################
+# Base16 Color Schemes for Sass:                                               #
+# https://github.com/tajmone/Base16-Sass                                       #
+################################################################################
+* text=auto
+
+*.yaml         text
+*.mustache     text
+
+*.htm          text
+*.html         text
+*.js           text
+*.css          text
+*.map.css      text
+*.sass         text
+*.scss         text
+
+*.bat          text eol=crlf
+*.sh           text eol=lf
+
+*.md           text
+*.txt          text
+LICENSE        text
+
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+.gitignore     text
+.gitmodules    text
+
+*.bmp          binary
+*.gif          binary
+*.icns         binary
+*.ico          binary
+*.jpeg         binary
+*.jpg          binary
+*.png          binary
+*.svg          binary
+
+# EOF #
